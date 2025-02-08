@@ -4,15 +4,15 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-#include "FPSHUD.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class FPSSHOOTER_API AFPSHUD : public AHUD
+class FPSSHOOTER_API AFP_SHUD : public AHUD
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
+
 public:
     // Current player score
     UPROPERTY(BlueprintReadWrite, Category = "Score")
