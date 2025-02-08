@@ -37,3 +37,9 @@ void UJSONDataManager::OnResponseReceived(FHttpRequestPtr Request, FHttpResponse
 
     // Add JSON parsing logic here
 }
+
+void UJSONDataManager::Init()
+{
+    Super::Init();
+    LoadJSONData(); // Auto-load when game starts
+}   
